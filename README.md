@@ -62,7 +62,7 @@ Additionally, a machine learning model using XGBoost regression predicts stock p
 ---
 
 ### **Data Source**
-Historical stock market data was fetched using the `yfinance` Python library. The dataset includes daily data from 1981 to the present for the top 10 companies listed above. The data consists of:
+Historical stock market data was fetched using the `yfinance` Python library. The dataset includes daily data from 1984 to the present for the top 10 companies listed above. The data consists of:
 - Opening and closing prices
 - High and low prices
 - Volume traded
