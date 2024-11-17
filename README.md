@@ -100,7 +100,7 @@ The XGBoost regression model was used to predict future stock prices based on hi
 ### **How the Dashboard Works**
 1. **Data Fetching**:
    - A Python script fetches historical and live stock data using the `yfinance` library.
-   - Data from 1981 to the current date is processed.
+   - Data from 1984 to the current date is processed.
 2. **Data Processing**:
    - The script preprocesses the data and feeds it into the XGBoost model for predictions.
 3. **Dynamic Updates**:
