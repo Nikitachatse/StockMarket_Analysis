@@ -111,7 +111,7 @@ The XGBoost regression model was used to predict future stock prices based on hi
 ---
 
 ### **Challenges Faced**
-1. **Handling Large Data Volumes**: Processing data from 1981 required efficient memory management and preprocessing techniques.
+1. **Handling Large Data Volumes**: Processing data from 1984 required efficient memory management and preprocessing techniques.
 2. **Integrating Python with Power BI**: Embedding Python scripts for real-time data updates posed technical challenges.
 3. **Ensuring Forecast Accuracy**: Fine-tuning the XGBoost model to balance accuracy and runtime performance.
 
