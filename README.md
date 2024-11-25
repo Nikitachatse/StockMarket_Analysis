@@ -135,3 +135,7 @@ The XGBoost regression model was used to predict future stock prices based on hi
 This project successfully combines the analytical power of Power BI and Python with machine learning to deliver actionable insights into the NASDAQ-100 index. By leveraging real-time data and predictive analytics, the dashboard empowers stakeholders to make informed investment decisions.
 
 ---
+
+![WhatsApp Image 2024-11-25 at 18 38 05_c2521ac4](https://github.com/user-attachments/assets/dd7baea3-b47f-4c0d-8c49-12eb10767ad8)
+![WhatsApp Image 2024-11-25 at 18 38 06_f88f4380](https://github.com/user-attachments/assets/77034c43-ce7e-4898-a535-6fcc4048d7c7)
+
