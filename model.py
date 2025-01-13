@@ -5,7 +5,7 @@ from ta.momentum import RSIIndicator
 from ta.trend import SMAIndicator
 from xgboost import XGBRegressor
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_error,r2_score
 import joblib
 
 # List of companies you want to analyze
@@ -50,6 +50,9 @@ model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
 mae = mean_absolute_error(y_test, y_pred)
 print(f"Mean Absolute Error (MAE): {mae}")
+
+r2 = r2_score(y_test, y_pred)
+print(f"R² Score: {r2}")
 
 # Save the trained model
 joblib.dump(model, 'stock_price_predictor_model.pkl')
