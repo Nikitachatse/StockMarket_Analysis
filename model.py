@@ -16,7 +16,7 @@ companies = ['AAPL', 'MSFT', 'GOOGL', 'META', 'NVDA', 'AMZN', 'TSLA', 'PYPL',
 def fetch_and_prepare_data(tickers):
     all_data = pd.DataFrame()
     for ticker in tickers:
-        stock_data = yf.download(ticker, period='50y') 
+        stock_data = yf.download(ticker, period='max') 
         stock_data['Company'] = ticker
         
         # Feature engineering (e.g., moving averages, RSI)
